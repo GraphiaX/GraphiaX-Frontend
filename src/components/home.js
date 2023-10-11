@@ -13,8 +13,8 @@ const Home = () => {
   const handleClick = async () => {
     try {
       setLoading(true); // Set loading state to true
-      // const url = 'https://graphiax-server.azurewebsites.net/react_api/info/'; // Replace with your Django server URL and API endpoint
       const url = 'https://graphia-x-server.vercel.app/react_api/info/'; // Replace with your Django server URL and API endpoint
+      // const url = 'http://localhost:8000/react_api/info/';
       const requestBody = {
         repoUrl: repoUrl.trim(),
       };
